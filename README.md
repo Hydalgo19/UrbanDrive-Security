@@ -103,3 +103,22 @@ Monitorización y mantenimiento
 ```
 
 Este ciclo permite revisar y mejorar continuamente la seguridad de la aplicación.
+
+## Evaluación de seguridad
+
+Para esta actividad se utilizaron diferentes herramientas y técnicas de evaluación de seguridad con el objetivo de analizar posibles vulnerabilidades en la aplicación.
+
+### Herramientas y técnicas utilizadas
+
+- GitHub Dependabot
+- Dependency Graph
+- CodeQL Analysis
+- Secret Protection
+- Validación manual de código JavaScript
+
+### Alteraciones realizadas en la aplicación
+
+Se añadió de forma intencionada una credencial hardcodeada dentro del archivo `app.js`:
+
+```javascript
+const password = "admin123";
