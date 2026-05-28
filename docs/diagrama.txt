@@ -1,0 +1,18 @@
+REQUIREMENTS
+     ↓
+SECURE DESIGN
+     ↓
+DEVELOPMENT
+     ↓
+SECURITY TESTING
+     ↓
+DEPLOYMENT
+     ↓
+MONITORING
+     ↺
+
+DevSecOps integration:
+- Continuous review
+- Automated security checks
+- Dependency analysis
+- Monitoring and maintenance

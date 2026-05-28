@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.car-card {
+    background-color: #1f2937;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.car-card h3 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input,
+select,
+button {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
